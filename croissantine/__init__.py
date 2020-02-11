@@ -1,0 +1,1 @@
+from .croissantine import app
