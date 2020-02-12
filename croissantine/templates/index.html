@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
           integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="{{ url_for('static', filename='croissant.css') }}" />
+
     <title>Croissantine</title>
 </head>
 <body>
@@ -31,7 +33,12 @@
     </div>
 </header>
 <footer class="footer">
-
+    <div class="container">
+        <p>
+            Développé par Céline Libéral (2020) - Code source disponible
+            <a href="https://github.com/celisoft/croissantine">ici</a>.
+        </p>
+    </div>
 </footer>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

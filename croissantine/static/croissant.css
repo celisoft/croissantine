@@ -1,0 +1,20 @@
+body {
+    background-color: lemonchiffon;
+}
+
+.jumbotron {
+    background-color: burlywood;
+}
+
+.btn, .btn-lg, .btn-primary {
+    background-color: chocolate;
+    border: none;
+}
+
+.jumbotron.a, .jumbotron.a:active, .jumbotron.a:hover {
+    color: chocolate;
+}
+
+a, a:active, a:hover {
+    color: chocolate;
+}
