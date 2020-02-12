@@ -14,7 +14,7 @@ Parce que l'idée était fun.
 ## Fait / A faire :
 
 - [x] Démarrer le projet
-- [x] Déployer sur Heroku
+- [x] Déployer sur Heroku (https://croissantine.herokuapp.com/)
 - [ ] Faire une page de demo avec un faux tableau de suivi
 - [ ] Identification / Enregistrement
 - [ ] Gestion d'une équipe
