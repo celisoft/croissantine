@@ -1,5 +1,11 @@
 body {
     background-color: lemonchiffon;
+
+    background-image: url('/static/img/hastbullar_tsnoni.jpg');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    min-height: 100px;
 }
 
 .jumbotron {
@@ -15,6 +21,21 @@ body {
     color: chocolate;
 }
 
-a, a:active, a:hover {
-    color: chocolate;
+footer, a, a:active, a:hover {
+    color: white;
+}
+
+.card {
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 10px;
+}
+
+.card-header {
+    background-color: burlywood;
+    border-color: chocolate;
+}
+
+.card.body {
+    background-color: burlywood;
 }

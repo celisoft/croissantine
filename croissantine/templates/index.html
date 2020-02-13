@@ -7,16 +7,28 @@
     <!-- CSS Bootstrap CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
           integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="{{ url_for('static', filename='croissant.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='croissant.css') }}"/>
 
     <title>Croissantine</title>
 </head>
 <body>
-<header class="header">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="{{ url_for('index') }}">Croissantine</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">Accueil</a>
+            <a class="nav-item nav-link" href="{{ url_for('demo') }}">Demo</a>
+            <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Identification</a>
+        </div>
+    </div>
+</nav>
+<section>
     <div class="container">
         <div class="jumbotron">
-            <h1 class="display-4">Croissantine !</h1>
             <p class="lead">
                 Difficile d'arriver à l'heure au STUM le matin ? Besoin d'un outil pour gérer vos pauses "fika" ?
             </p>
@@ -28,10 +40,10 @@
                 Parce que l'idée était fun.<br/><br>
                 Nous avons créé pour vous l'ultime solution afin de gérer les petits-déjeuners dans votre équipe !
             </p>
-            <a class="btn btn-primary btn-lg" href="#" role="button">En savoir plus</a>
+            <a class="btn btn-primary btn-lg" href="{{ url_for('demo') }}" role="button">En savoir plus</a>
         </div>
     </div>
-</header>
+</section>
 <footer class="footer">
     <div class="container">
         <p>
@@ -49,5 +61,6 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
         integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
         crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/d93bdf05b4.js" crossorigin="anonymous"></script>
 </body>
 </html>
