@@ -10,6 +10,7 @@ body {
 
 .jumbotron {
     background-color: burlywood;
+    margin-top: 10px;
 }
 
 .btn, .btn-lg, .btn-primary {
@@ -28,7 +29,7 @@ footer, a, a:active, a:hover {
 .card {
     width: 80%;
     margin-left: 10%;
-    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .card-header {
